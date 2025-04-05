@@ -1,0 +1,17 @@
+{
+    "extends": "@tsconfig/recommended/tsconfig.json",
+    "compilerOptions": {
+        "target": "es2021",
+        "allowJs": true,
+        "declaration": true,
+        "module": "esnext",
+        "lib": ["dom", "ESNext"],
+        "esModuleInterop": true,
+        "noImplicitAny": true,
+        "sourceMap": true,
+        "noEmit": true,
+        "strict": true
+    },
+    "include": ["*.ts", "**/*.ts"],
+    "exclude": ["**/__tests__"]
+}

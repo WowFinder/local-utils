@@ -1,0 +1,22 @@
+{
+    "name": "@wowfinder/local-utils",
+    "type": "module",
+    "version": "0.0.0",
+    "description": "A collection of local utility functions for the Wowfinder project.",
+    "author": "Edurne Pascual <herenvardo@gmail.com>",
+    "license": "GPL-3.0-or-later",
+    "private": true,
+    "packageManager": "yarn@4.8.1",
+    "scripts": {
+        "start": "tsx src/index.ts",
+        "format": "prettier --write .",
+        "format:check": "prettier --check ."
+    },
+    "devDependencies": {
+        "@trivago/prettier-plugin-sort-imports": "^5.2.2",
+        "@tsconfig/recommended": "^1.0.8",
+        "@types/node": "^22.14.0",
+        "prettier": "^3.5.3",
+        "tsx": "^4.19.3"
+    }
+}
